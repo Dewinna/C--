@@ -1,0 +1,15 @@
+//Same input file as used in example (This line will create an error for the first output but then it'll skip the line and move to the next.) (File contains a couple invalid entries to show error handling)
+n 0, 2, 6
+n 0, 2. 8
+n 0, 4, 200 
+n 1, 1, 1, "Top Speed: Mach 1.2. Max Range: 400 Miles"
+n 1, 2, 2, "Top Speed: Mach 2, Max Range: 1200 Miles"
+n 2, "Zivko Edge 540", "Cruise: 333 km/h, Max Roll Rate: 420 degrees/sec, G-limit: 10"
+n 2, "Pitts Special S-1S","180HP, certified S-1C for competition aerobatics"
+n 2, "Pitts Special S-1S", "180HP, certified S-1C for competition aerobatics"
+n 3, 4, "UPS", "100 UPS Shipping containers"
+n 3, 4, "FedEx", "14,000 pounds"
+p 0
+p 1
+p 2
+p 3 
