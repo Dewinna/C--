@@ -87,9 +87,3 @@ Both output:
 
 Moves: 8
 Enqueued: 23
-
-NOTES:
-1. I could not connect to the cs2 server to test this, but took great care in making sure that the program handles inputs correctly even in the raw console. 
-	Used the VPN and tried to connect to giant, but it wasn't recognized as a host, also tried the public ssh host and succesfully connected, but couldn't get into cs2 once in the general SSH server (May have been DUO not returning my 2 factor authentication method in time)
-2. My "queue" in IDS is the number of nodes traversed, for the rest it is the TOTAL number of nodes ENQUEUED, whether they're later visited or not. I suspect my values are slightly larger than in the examples because of this, 
-	but the homework doesn't specify to measure performance in the same way and I find this to be a better measurement for the total cost of the algorithm finding the correct path.
